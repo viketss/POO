@@ -10,7 +10,7 @@ public class Empleado extends Persona { //subclase de persona --> extends Clase:
     }
 
     public Empleado(String nombre, int edad, String puesto) { // atributos propios y de la superclase
-        super.(nombre, edad); // super --> usa constructor de la clase padre (persona)
+        super(nombre, edad); // super --> usa constructor de la clase padre (persona)
         this.puesto = puesto;
     }
 
