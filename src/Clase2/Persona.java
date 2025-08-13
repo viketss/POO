@@ -1,4 +1,4 @@
-package Prueba;
+package Clase2;
 
 public class Persona { //superclase
     // variables: definir atributos
@@ -25,5 +25,10 @@ public class Persona { //superclase
     // GET:
     public String getNombre() {
         return nombre;
+    }
+
+    // OTROS METODOS
+    public void saludar() {
+        System.out.println("Hola" + nombre);
     }
 }

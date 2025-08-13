@@ -1,4 +1,4 @@
-package Prueba;
+package Clase2;
 
 public class Productos {
     // atributos

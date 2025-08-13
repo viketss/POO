@@ -1,4 +1,4 @@
-package Prueba;
+package Clase2;
 
 public class Principal {
     public static void main(String[] args) { //psvm --> atajo para crear el main
