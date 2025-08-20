@@ -1,4 +1,4 @@
-package Clase2;
+package Clase2.Supermarket;
 
 public class Productos {
     // atributos
