@@ -1,13 +1,13 @@
 package Clase2.Supermarket;
 
 public class Productos {
-    // atributos
+    // 1. atributos de productos
     private float precio;
     private String nombre;
     private int codigoDeProducto;
     private String marca;
 
-    // crear el constructor
+    // 2. crear el constructor
     public Productos(float precio, String nombre, int codigoDeProducto, String marca) {
         this.precio = precio;
         this.nombre = nombre;
@@ -23,7 +23,7 @@ public class Productos {
         marca = "Marca";
     }
 
-    // SETTER
+    // SETTER: modificar atributos privados
 
     public void setPrecio(float precio) {
         this.precio = precio;
@@ -38,7 +38,9 @@ public class Productos {
         this.marca = marca;
     }
 
-    // GETTER
+
+
+    // GETTER: acceder a atributos privados
 
     public float getPrecio() {
         return precio;
@@ -52,4 +54,7 @@ public class Productos {
     public String getMarca() {
         return marca;
     }
+
+
+
 }
